@@ -1,0 +1,22 @@
+.sm_box {
+    position: relative;
+    top:-30px;
+    right:-7px;
+    display:flex;
+    justify-content: space-between;
+    max-width: 120px;
+    margin: 0 left;
+    padding: 10px 0;
+}
+
+.top_clicks{
+    position: relative;
+    top:-30px;
+    right:-7px;
+    display:flex;
+    justify-content: space-between;
+    max-width: 120px;
+    margin: 0 right;
+    padding: 10px 0;
+
+}
