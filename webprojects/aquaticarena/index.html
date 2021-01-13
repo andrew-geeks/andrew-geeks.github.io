@@ -1,0 +1,268 @@
+<!--Aquatic Arena: web-project-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Online store for Fishes,Aquariums & Accessories</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/png" href="images/fish-logo.png">
+    <!--Bootsrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <!--Logos/Vectors-->
+    <script src="https://kit.fontawesome.com/ccbdc28270.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!--section:top-->
+    <section id="top">
+        <div class="container-fluid">
+            <!--Navigation Bar-->
+            <nav class="navbar navbar-expand-lg navbar-dark" style="padding-top:30px;">
+                <a class="navbar-brand" style="font-family:'Yeon Sung';font-size:35px;padding-left:5%;" href="#">
+                    <img src="images/fish-logo.png" width="47" height="47" class="d-inline-block align-top" alt="">
+                    aquatic arena
+                  </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#fish_varieties">Fish Varieties</a></li> 
+                        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>   
+                        <li class="nav-item"><a class="nav-link" href="#contact-us">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#footer">Connect</a></li>
+                    </ul>
+                </div>
+            </nav>
+        
+            <!--section-top-content-->
+            <div class="row rw1">
+                <div class="col-lg-6">
+                    <h1 class="sec-head-1 ">Fabulous<br>Fishes</h1>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/fish-top.jpg" width="600px" height="400px" class="sec-img img-fluid" alt="fish-img">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--section:aquariums-->
+    <section id="aquariums">
+        <div class="container-fluid">
+            <div class="row rw2">
+                <div class="col-lg-6">
+                    <img src="images/original-aquarium-3-43-jpg-e3c5114b.jpg" width="600px" height="400px" class="sec-img" alt="fish-img">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="sec-head-2">Amazing<br>Aquariums</h1>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!--section:fish-decor & accessories-->
+    <section id="fd_acc">
+        <div class="row rw3">
+            <div class="col-lg-6">
+                <h1 class="sec-head-3">Fish Decor<br>&<br>Accessories</h1>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/fdecor_acc.jpg" class="sec-img" width="600px" height="400px" alt="dec-img">
+            </div>
+        </div>
+    </section>
+    
+
+    <!--Fish_varieties-->
+    <section id="fish_varieties">
+        <div class="row rw4">
+            <div class="col-lg-6">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interva="500">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" height="500px" width="200px" src="images/fish_v/goldfish_v.jpg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" height="500px" width="200px" src="images/fish_v/gourami_v.jpg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" height="500px" width="200px" src="images/fish_v/neon-tetra_v.jpg" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="sec-head-4">Fish<br>Varieties</h1>
+            </div>
+        </div>
+        
+        
+        <!--Varieties slideshow-->
+        
+
+    </section>
+
+    <!--Pricing-->
+    <section id="pricing">
+        <h1 style="font-family: 'Potta One';color:white;font-size:100px">Pricing</h1>
+        <!--Fishes-Card-->
+        <h3 style="padding-top: 70px;font-family:'Yeon Sung';">The fishes of your choice!</h3>
+        <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="images/fish_p/goldfish_p.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Gold Fish<br>(₹40/per pair)</h5>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>2 in one pair</li>
+                  <li>Price non-negotiable</li>
+                  <li>Life span: 10-15 years</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Buy Now</button>                
+              </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top" src="images/fish_p/gourami_p.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Gourami<br>(₹30/per pair)</h5>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>2 in one pair</li>
+                  <li>Price negotiable</li>
+                  <li>Life span: 2-4 years</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Buy Now</button>  
+            </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/fish_p/neon-tetra_p.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Neon Tetra<br>(₹50/per pair)</h5>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>2 in one pair</li>
+                  <li>Price non-negotiable</li>
+                  <li>Life span: 9-10 years</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Aquariums card-->
+        <h3 style="padding-top: 50px;font-family:'Yeon Sung';">Lovely Aquariums!</h3>
+        <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="images/aquarium_p/aq1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">RS230EL AQUARIUM<br>(₹1995)</h5>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Size: 23X17X28 cm</li>
+                  <li>Price non-negotiable</li>
+                  <li>Colour: White & Black</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-outline-success">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/aquarium_p/aq2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">RS380A AQUARIUM<br>(₹2790)</h5>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Size: 38X21X40 cm</li>
+                  <li>Price negotiable</li>
+                  <li>Colour: White,Black,Pink</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-outline-success">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/aquarium_p/aq3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">RS500E AQUARIUM<br>(₹3540)</h5>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Size: 50X25X49 cm</li>
+                  <li>Price non-negotiable</li>
+                  <li>Colour: White,Black,Pink,Blue</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-outline-success">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Acc card-->
+        <h3 style="padding-top: 50px;font-family:'Yeon Sung';">Fish decor & accessories!</h3>
+        <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="images/fd_acc_p/a1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">RS062A POWER FILTER<br>(₹300)</h5>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Spec: 2W300L/H</li>
+                  <li>Price non-negotiable</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-outline-dark">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/fd_acc_p/a2.jpg" width="200px" height="270px" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Tetra Bits<br>(₹180)</h5>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>weight: 30g</li>
+                  <li>Price non-negotiable</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-outline-dark">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/fd_acc_p/a3.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Hemigraphis Pink (terrarium plant)<br>(₹90)</h5>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Price negotiable</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-outline-dark">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+    
+    <!--Contact us-->
+    <section id="contact-us">
+        <h1 style="font-family: 'Potta One';color:white;font-size:80px">Contact Us</h1>
+        <h3 style="padding-top: 30px;font-family:'Yeon Sung';padding-bottom:40px;">Lets bring your loved fishes home!</h3>
+        <button type="button" class="btn btn-primary btn-lg eml-btn">Email Us!</button>
+    </section>
+
+    <!--footer-->
+    <section id="footer">
+        <a class="link-icon" href=""><i class="fab fa-facebook"></i></a>
+        <a class="link-icon ist-icon" href=""><i class="fab fa-instagram"></i></a>   
+        <a class="link-icon" href=""><i class="fab fa-twitter"></i></a>
+        <br>
+        <p style="padding-top: 20px;">© copyright 2021 aquaticarena</p>
+    </section>
+</body>
+
+</html>
